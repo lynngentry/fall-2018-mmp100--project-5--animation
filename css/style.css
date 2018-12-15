@@ -1,4 +1,11 @@
 #animation {
-  height: 400px;
   width: 300px;
-  background: url(sprite.png);}
+  height: 400px;
+  background: url(http://mmp.bmcc.cuny.edu/ricky.gentry/fall-2018/mmp-100/project-5/img/sprite.png);
+  animation: run 9s steps(90) infinite;
+}
+
+@keyframes run {
+    0%   {background-position: 0px;}
+    100%  {background-position: -27000px;}
+}
